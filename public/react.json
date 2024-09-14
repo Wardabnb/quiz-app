@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "What hook is used to add state to a functional component?",
+    "choices": ["useState", "setState", "this.state", "useState"],
+    "correctAnswer": "useState"
+  },
+  {
+    "id": 2,
+    "question": "Which hook is used to perform side effects in a functional component?",
+    "choices": ["useSideEffect", "useEffect", "useLayoutEffect", "useCallback"],
+    "correctAnswer": "useEffect"
+  },
+  {
+    "id": 3,
+    "question": "How do you define a functional component in React?",
+    "choices": [
+      "class MyComponent extends React.Component { }",
+      "function MyComponent() { }",
+      "const MyComponent = new Function()",
+      "React.createComponent(() => { })"
+    ],
+    "correctAnswer": "function MyComponent() { }"
+  },
+  {
+    "id": 4,
+    "question": "Which hook is used to memoize expensive computations in functional components?",
+    "choices": ["useMemo", "useCallback", "useRef", "useReducer"],
+    "correctAnswer": "useMemo"
+  },
+  {
+    "id": 5,
+    "question": "How do you access props in a functionalcomponents?",
+    "choices": ["useMemo", "useCallback", "useRef", "useReducer"],
+    "correctAnswer": "useMemo"
+  }
+]
